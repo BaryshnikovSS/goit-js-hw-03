@@ -1,9 +1,5 @@
 'use strict'
 
-function task_06()
-
-{
-
     // Напиши функцию calculateTotalPrice(arr, productName), которая получает массив объектов 
     // и имя продукта (значение свойства name). Возвращает общую стоимость продукта (цена * количество).
 
@@ -34,5 +30,3 @@ function task_06()
     console.log(calculateTotalPrice(products, 'Радар')); // 5200
 
     console.log(calculateTotalPrice(products, 'Дроид')); // 2800
-
-}
