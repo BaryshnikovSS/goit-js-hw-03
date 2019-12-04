@@ -1,5 +1,7 @@
 'use strict';
 
+export function task_01() {
+
     // Напиши скрипт, который, для объекта user, последовательно:
 
     // добавляет поле mood со значением 'happy'
@@ -24,3 +26,5 @@
         console.log(`${users}: ${user[users]}`);
 
     }
+
+}

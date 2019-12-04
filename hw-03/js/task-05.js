@@ -1,5 +1,7 @@
 'use strict'
 
+export function task_05() {
+
     // Напиши функцию getAllPropValues(arr, prop), которая получает массив объектов и имя ключа. 
     // Возвращает массив значений определенного поля prop из каждого объекта в массиве.
 
@@ -33,3 +35,5 @@
     console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
 
     console.log(getAllPropValues(products, 'category')); // []
+
+}
